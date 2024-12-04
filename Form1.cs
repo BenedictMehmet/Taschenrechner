@@ -112,7 +112,7 @@ namespace Taschenrechner
             // Entferne doppelte Leerzeichen
             expression = System.Text.RegularExpressions.Regex.Replace(expression, @"\s+", " ");
 
-            // Entferne führende und abschließende Leerzeichen
+            // Entferne führende und abschliessende Leerzeichen
             expression = expression.Trim();
 
             // Optional: Überprüfen, ob der Ausdruck gültige Zeichen enthält
